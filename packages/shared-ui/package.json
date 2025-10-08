@@ -1,0 +1,20 @@
+{
+  "name": "shared-ui",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "build": "echo 'shared-ui build step'"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.4.5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
