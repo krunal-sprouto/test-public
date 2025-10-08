@@ -4,7 +4,7 @@ export const Button = () => {
   return (
     
     <button style={{
-      backgroundColor: 'red',
+      backgroundColor: 'yellow',
       color: 'white',
       padding: '10px 20px',
       border: 'none',
